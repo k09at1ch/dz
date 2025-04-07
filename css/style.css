@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-     font-family: "Noto Sans Warang Citi", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 header{
     background-color: aqua;
@@ -34,4 +35,24 @@ footer{
 img{
     height: 250px;
     width: 50vh;
+    transition: 0.2s ease-in-out ;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.photoList{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+}
+.animationText {
+    font-size: 30px;
+    background-color: aqua;
+    padding: 50px 150px;
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
 }
